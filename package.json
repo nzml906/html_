@@ -1,9 +1,9 @@
 {
-  "name": "admin-lte",
-  "description": "Responsive open source admin dashboard and control panel.",
-  "version": "3.2.0-rc",
+  "name": "simple-server",
+  "description": "Source of all PSD to HTML page",
+  "version": "1.0",
   "license": "MIT",
-  "author": "Colorlib <https://colorlib.com>",
+  "author": "Nazmul Ahmed",
   "main": "dist/js/adminlte.min.js",
   "scripts": {
     "bundlewatch": "bundlewatch --config .bundlewatch.config.json",
@@ -43,15 +43,15 @@
     "control-panel",
     "dashboard"
   ],
-  "homepage": "https://adminlte.io",
+  "homepage": "",
   "style": "dist/css/adminlte.css",
   "sass": "build/scss/adminlte.scss",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ColorlibHQ/AdminLTE.git"
+    "url": "https://github.com/nzml906/html_"
   },
   "bugs": {
-    "url": "https://github.com/ColorlibHQ/AdminLTE/issues"
+    "url": "https://github.com/nzml906/html_/issues"
   },
   "dependencies": {
     "bootstrap": "^4.6.1"
