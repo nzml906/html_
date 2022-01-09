@@ -1,7 +1,7 @@
 {
   "name": "simple-server",
   "description": "Source of all PSD to HTML page",
-  "version": "1.0",
+  "version": "3.2.0-rc",
   "license": "MIT",
   "author": "Nazmul Ahmed",
   "main": "dist/js/adminlte.min.js",
