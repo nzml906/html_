@@ -1,4 +1,30 @@
 /********** Template CSS **********/
+:root {
+  --primary: #6222cc;
+  --secondary: #fba504;
+  --light: #f6f4f9;
+  --dark: #04000b;
+}
+
+/*** Heading ***/
+h1,
+h2,
+.fw-bold {
+  font-weight: 700 !important;
+}
+
+h3,
+h4,
+.fw-semi-bold {
+  font-weight: 600 !important;
+}
+
+h5,
+h6,
+.fw-medium {
+  font-weight: 500 !important;
+}
+
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
   border: none;
