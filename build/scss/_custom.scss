@@ -193,3 +193,12 @@ h6,
     padding: 6rem 0 9rem 0;
   }
 }
+
+/*** Feature ***/
+.feature-item {
+  transition: 0.5s;
+}
+
+.feature-item:hover {
+  margin-top: -15px;
+}
