@@ -54,7 +54,7 @@
     "url": "https://github.com/nzml906/html_/issues"
   },
   "dependencies": {
-    "bootstrap": "^4.6.1"
+    "bootstrap": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
