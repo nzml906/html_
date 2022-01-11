@@ -11895,7 +11895,7 @@ h5, .h5, h6, .h6,
   margin-bottom: 6rem;
   padding: 18rem 0;
   background: url(../../img/blob-top-left.png), url(../../img/blob-top-right.png), url(../../img/blob-bottom-left.png), url(../../img/blob-bottom-right.png), url(../../img/blob-center.png), url(../../img/bg-bottom.png);
-  background-position: left 0px top 0px, right 0px top 0px, left 0px bottom 0px, right 0px bottom 0px, center center, center bottom;
+  background-position: left 0px top 0px, right 0px top 0px, left 0px bottom 0px, right 0px bottom 0px, center center, center bottom;
   background-repeat: no-repeat;
 }
 
@@ -11973,5 +11973,15 @@ h5, .h5, h6, .h6,
 .section-title.text-white span:first-child::after,
 .section-title.text-white span:last-child::after {
   background: #ffffff;
+}
+
+/*** About ***/
+.progress {
+  height: 5px;
+}
+
+.progress .progress-bar {
+  width: 0px;
+  transition: 3s;
 }
 /*# sourceMappingURL=adminlte.css.map */
