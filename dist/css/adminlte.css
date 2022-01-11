@@ -11725,6 +11725,15 @@ fieldset:disabled .btn {
   --dark: #04000b;
 }
 
+/*** Back to top button ***/
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 45px;
+  bottom: 45px;
+  z-index: 99;
+}
+
 /*** Heading ***/
 h1, .h1, h2, .h2,
 .fw-bold {
