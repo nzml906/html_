@@ -12115,4 +12115,41 @@ h5, .h5, h6, .h6,
 .portfolio-item:hover .portfolio-overlay {
   opacity: 1;
 }
+
+/*** Testimonial ***/
+.testimonial-carousel .testimonial-item {
+  padding: 0 30px 30px 30px;
+}
+
+.testimonial-carousel .owl-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next {
+  margin: 0 12px;
+  width: 60px;
+  height: 60px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: var(--primary);
+  background: var(--light);
+  border-radius: 60px;
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+.testimonial-carousel .owl-nav .owl-prev:hover,
+.testimonial-carousel .owl-nav .owl-next:hover {
+  color: #ffffff;
+  background: var(--primary);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 /*# sourceMappingURL=adminlte.css.map */
