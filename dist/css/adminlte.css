@@ -12152,4 +12152,15 @@ h5, .h5, h6, .h6,
   background: var(--primary);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+/*** Team ***/
+.team-item .btn {
+  color: var(--primary);
+  background: #ffffff;
+}
+
+.team-item .btn:hover {
+  color: #ffffff;
+  background: var(--primary);
+}
 /*# sourceMappingURL=adminlte.css.map */
